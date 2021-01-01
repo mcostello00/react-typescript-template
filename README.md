@@ -51,7 +51,7 @@ Also, be sure to have `git` available in your PATH, `npm` might need it.
 
 ## Start & watch
 
-    $ npm run dev
+    $ npm run start
 
 ## Simple build for production
 
