@@ -1,3 +1,8 @@
 {
-  "presets": ["@babel/react", "@babel/typescript", "@babel/env"]
+  "presets": [
+    "@babel/react",
+    "@babel/typescript",
+    ["@babel/env", { "useBuiltIns": "usage", "corejs": "3.3.5" }]
+  ]
+  //"corejs": { "version": "3.8", "proposals": true }
 }
